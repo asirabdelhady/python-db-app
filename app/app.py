@@ -5,10 +5,10 @@ app = Flask(__name__)
 
 # MySQL Connection Configuration
 db_config = {
-    'host': '192.168.100.53',  # Replace with your MySQL host IP address or hostname
-    'user': 'admin',  # Replace with your MySQL username
-    'password': 'pass',  # Replace with your MySQL password
-    'database': 'users'  # Replace with your MySQL database name
+    'host': 'db-host',  # Replace with your MySQL host IP address or hostname
+    'user': 'db-user',  # Replace with your MySQL username
+    'password': 'passdb-password',  # Replace with your MySQL password
+    'database': 'db-user'  # Replace with your MySQL database name
 }
 
 # Establish MySQL connection
